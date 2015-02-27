@@ -14,7 +14,7 @@ $ npm install request-defaults
 
 ## Usage
 
-Instead of `request`, use `request-defaults`, which just provides `request` with said defaults in place.
+Instead of `request`, use `request-defaults`, which just provides instance of `request` with said defaults in place.
 
 ```js
 var request = require('request-defaults');
