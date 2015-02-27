@@ -23,7 +23,7 @@ var request = require('request-defaults');
 
 ### globalDefaults()
 
-Creates new instance of request with global defaults, which are used for every `request-defaults` instance.
+Creates new instance of `request` with global defaults, which are used for every `request-defaults` instance.
 
 ```js
 var request = require('request-defaults');
@@ -37,7 +37,7 @@ request.globalDefaults({
 
 You can also create custom sets as separate properties.
 
-__Note: Since `globalDefaults()` creates new instance of `request`, calling it will also clear any custom properties.__
+__Note: Since `globalDefaults()` creates new instance of `request`, calling it will also clear any previously set custom properties.__
 
 ```js
 var request = require('request-defaults');
