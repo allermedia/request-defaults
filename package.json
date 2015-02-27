@@ -1,0 +1,16 @@
+{
+  "name": "request-defaults",
+  "version": "1.0.0",
+  "description": "request wrapper which provides global defaults",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "request",
+    "wrapper",
+    "defaults"
+  ],
+  "author": "Mikko Tikkanen <mikko.tikkanen@gmail.com>",
+  "license": "ISC"
+}
