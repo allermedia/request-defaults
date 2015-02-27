@@ -44,4 +44,8 @@ var request = require('request-defaults');
 request.api = request.defaults({
   timeout: 20*1000
 });
+
+request.api.get('localhost/api/stuff', function(err, response, body) {
+  console.log('body');
+});
 ```
