@@ -6,11 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikkotikkanen/request-defaults.git"
+  },
   "keywords": [
     "request",
     "wrapper",
     "defaults"
   ],
   "author": "Mikko Tikkanen <mikko.tikkanen@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkotikkanen/request-defaults/issues"
+  },
+  "homepage": "https://github.com/mikkotikkanen/request-defaults",
+  "dependencies": {
+    "request": "^2.53.0"
+  }
 }
