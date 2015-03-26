@@ -1,6 +1,6 @@
 {
   "name": "request-defaults",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "request wrapper which provides global defaults",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/mikkotikkanen/request-defaults",
   "dependencies": {
-    "request": "2.53.1"
+    "request": "2.53.0"
   }
 }
