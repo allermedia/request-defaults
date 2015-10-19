@@ -1,7 +1,7 @@
 request-defaults
 ===============
 
-__[request](https://github.com/request/request) wrapper which provides global defaults__
+__[request](https://github.com/request/request) wrapper for global defaults__
 
 `request` provides `.defaults()` method for setting default options, which returns new instance of `request` with said defaults
 in place. However, as these settings are not global, on every file where request is used, call to `defaults()` with same options
