@@ -1,6 +1,6 @@
 {
   "name": "request-defaults",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Request wrapper for global defaults",
   "main": "index.js",
   "repository": {
