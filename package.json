@@ -27,6 +27,7 @@
     "nock": "^2.15.0"
   },
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "prepublish": "npm test"
   }
 }
